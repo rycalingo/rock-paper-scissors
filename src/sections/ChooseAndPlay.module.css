@@ -1,3 +1,13 @@
+.chooseAndPlay {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
 .choiceBtnCtn {
   display: flex;
   justify-content: center;
@@ -10,4 +20,5 @@
   padding: 10px 30px;
   margin-top: 50px;
   font-weight: bold;
+  width: 100px;
 }

@@ -9,8 +9,8 @@ function App() {
 				<h1>ROCK, PAPER, SCISSORS</h1>
 				<p>React Typescript Game!</p>
 			</div>
-			<ScoreAndResults />
 			<ChooseAndPlay />
+			<ScoreAndResults />
 		</div>
 	);
 }

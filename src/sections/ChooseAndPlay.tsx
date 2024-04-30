@@ -20,10 +20,12 @@ const ChooseAndPlay = () => {
 
 	return (
 		<>
-			<div className={styles.choiceBtnCtn}>{HandOptionsArray}</div>
-			<button className={styles.playBtn} onClick={play}>
-				Play
-			</button>
+			<div className={styles.chooseAndPlay}>
+				<div className={styles.choiceBtnCtn}>{HandOptionsArray}</div>
+				<button className={styles.playBtn} onClick={play}>
+					Play
+				</button>
+			</div>
 		</>
 	);
 };
